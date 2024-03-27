@@ -11,7 +11,7 @@ const answer = await inquirer.prompt([
     {
        name : "userGuessedNumber",
        type : "number",
-       message : "Please guess a number between 1 TO 6 :",
+       message : "Please guess a number between 1 To 6 :",
     }
 ])
 if(gameNumber === answer.userGuessedNumber){
