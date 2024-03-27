@@ -15,4 +15,5 @@ if (gameNumber === answer.userGuessedNumber) {
 }
 else {
     console.log(chalk.red("you are wrong guessed!"));
+    console.log(chalk.blue(`computer Guessed Number is : ${gameNumber}`));
 }
